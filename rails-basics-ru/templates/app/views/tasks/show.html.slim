@@ -1,0 +1,32 @@
+h1 Task#show
+= link_to 'Edit', edit_task_path
+= button_to 'Delete', task_path, method: :delete, data: { confirm: 'Are you sure?' }
+p
+  b Name:
+  strong
+    = @task.name
+
+p
+  b Description:
+  strong
+    = @task.description
+
+p
+  b Status:
+  strong
+    = @task.status
+
+p
+  b Creator:
+  strong
+    = @task.creator
+
+p
+  b Performer:
+  strong
+    = @task.performer
+
+p
+  b Completed:
+  strong
+    = @task.completed
