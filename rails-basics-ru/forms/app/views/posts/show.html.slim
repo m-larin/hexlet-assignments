@@ -1,0 +1,19 @@
+h1 Post#show
+= link_to 'Edit', edit_post_path
+= button_to 'Delete', post_path, method: :delete, data: { confirm: 'Are you sure?' }
+p
+  b Title:
+  strong
+    = @post.title
+p
+  b Body:
+  strong
+    = @post.body
+p
+  b Summary:
+  strong
+    = @post.summary
+p
+  b Published:
+  strong
+    = @post.published

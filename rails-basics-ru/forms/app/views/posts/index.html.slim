@@ -1,0 +1,5 @@
+h1 Post#index
+= link_to "New", new_post_path
+- @posts.each do |post|
+  li
+    = link_to post.title , post
