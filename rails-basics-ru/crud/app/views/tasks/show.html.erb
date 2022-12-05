@@ -1,0 +1,9 @@
+<h1>Task#show</h1>
+<%= link_to 'Edit', edit_task_path %>
+<%= button_to 'Delete', task_path, method: :delete, data: { confirm: 'Are you sure?' } %>
+<p><b>Name: </b><strong><%= @task.name %></strong></p>
+<p><b>Description: </b><strong><%= @task.description %></strong></p>
+<p><b>Status: </b><strong><%= @task.status %></strong></p>
+<p><b>Creator: </b><strong><%= @task.creator %></strong></p>
+<p><b>Performer: </b><strong><%= @task.performer %></strong></p>
+<p><b>Completed: </b><strong><%= @task.completed %></strong></p>

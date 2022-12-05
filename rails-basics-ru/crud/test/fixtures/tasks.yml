@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString1
+  description: MyText1
+  creator: MyString1
+  performer: MyString1
+
+two:
+  name: MyString2
+  description: MyText2
+  creator: MyString2
+  performer: MyString2
